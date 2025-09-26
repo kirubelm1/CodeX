@@ -136,7 +136,7 @@ Please follow the existing code style and run lint & type checks before submitti
 ## 📜 License
 
 MIT License  
-© 2025 Your Name  
+© 2025 Kirubel Mesfin 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, subject to the conditions in the license.
 
