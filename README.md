@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo2.png" alt="Code Snippet Organizer" width="400">
+  <img src="assets/New Logo.png" alt="Code Snippet Organizer" width="400">
 </p>
 
 Easily save, organize, and find your favorite code snippets in one place — never lose track of your useful code again.
