@@ -1,0 +1,28 @@
+import { Language } from '../types';
+
+export const LANGUAGES: Language[] = [
+  { id: 'javascript', name: 'JavaScript', extension: 'js', color: '#F7DF1E' },
+  { id: 'typescript', name: 'TypeScript', extension: 'ts', color: '#3178C6' },
+  { id: 'python', name: 'Python', extension: 'py', color: '#3776AB' },
+  { id: 'java', name: 'Java', extension: 'java', color: '#ED8B00' },
+  { id: 'cpp', name: 'C++', extension: 'cpp', color: '#00599C' },
+  { id: 'c', name: 'C', extension: 'c', color: '#A8B9CC' },
+  { id: 'csharp', name: 'C#', extension: 'cs', color: '#239120' },
+  { id: 'php', name: 'PHP', extension: 'php', color: '#777BB4' },
+  { id: 'ruby', name: 'Ruby', extension: 'rb', color: '#CC342D' },
+  { id: 'go', name: 'Go', extension: 'go', color: '#00ADD8' },
+  { id: 'rust', name: 'Rust', extension: 'rs', color: '#CE422B' },
+  { id: 'swift', name: 'Swift', extension: 'swift', color: '#FA7343' },
+  { id: 'kotlin', name: 'Kotlin', extension: 'kt', color: '#7F52FF' },
+  { id: 'html', name: 'HTML', extension: 'html', color: '#E34F26' },
+  { id: 'css', name: 'CSS', extension: 'css', color: '#1572B6' },
+  { id: 'scss', name: 'SCSS', extension: 'scss', color: '#CF649A' },
+  { id: 'json', name: 'JSON', extension: 'json', color: '#000000' },
+  { id: 'xml', name: 'XML', extension: 'xml', color: '#FF6600' },
+  { id: 'yaml', name: 'YAML', extension: 'yaml', color: '#CB171E' },
+  { id: 'markdown', name: 'Markdown', extension: 'md', color: '#083FA1' },
+  { id: 'bash', name: 'Bash', extension: 'sh', color: '#4EAA25' },
+  { id: 'sql', name: 'SQL', extension: 'sql', color: '#336791' },
+  { id: 'docker', name: 'Dockerfile', extension: 'dockerfile', color: '#2496ED' },
+  { id: 'text', name: 'Plain Text', extension: 'txt', color: '#6B7280' },
+];
