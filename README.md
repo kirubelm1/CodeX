@@ -1,6 +1,10 @@
-# Code Snippet Organizer
+<p align="center">
+  <img src="assets/logo.png" alt="Code Snippet Organizer" width="400">
+</p>
 
 Easily save, organize, and find your favorite code snippets in one place — never lose track of your useful code again.
+
+
 
 ## 📦 Tech Stack
 
@@ -124,6 +128,9 @@ Contributions are welcome!
 
 Please follow the existing code style and run lint & type checks before submitting.
 
+## Preview
+![Code Snippet Organizer](assets/image.png)
+
 ---
 
 ## 📜 License
@@ -136,6 +143,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 ---
 
 ## 💬 Acknowledgments & Resources
+
 
 - [Vite](https://vitejs.dev/) – Bundler  
 - [React](https://reactjs.org/) – UI library  
