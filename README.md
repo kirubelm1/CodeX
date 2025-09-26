@@ -54,11 +54,6 @@ src/
 
 ## 💻 Getting Started
 
-### Prerequisites
-
-- Node.js v14+  
-- npm or yarn  
-
 ### Installation
 
 1. Clone the repository:
