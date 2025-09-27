@@ -1,10 +1,16 @@
 <p align="center">
   <img src="assets/New Logo.png" alt="Code Snippet Organizer" width="400">
 </p>
-
 Easily save, organize, and find your favorite code snippets in one place — never lose track of your useful code again.
 
+Contributions are welcome!  
 
+1. Fork the repository  
+2. Create a new branch (`git checkout -b feature/foo`)  
+3. Make your changes and test thoroughly  
+4. Commit your changes (`git commit -m "Add feature foo"`)  
+5. Push to the branch (`git push origin feature/foo`)  
+6. Open a Pull Request  
 
 ## 📦 Tech Stack
 
