@@ -135,7 +135,7 @@ Contributions are welcome!
 Please follow the existing code style and run lint & type checks before submitting.
 
 ## Preview
-![Code Snippet Organizer](assets/image.png)
+![Code Snippet Organizer](assets/preview.png)
 
 ---
 
