@@ -2,6 +2,7 @@
   <img src="assets/New Logo.png" alt="Code Snippet Organizer" width="400">
 </p>
 Easily save, organize, and find your favorite code snippets in one place — never lose track of your useful code again.
+⭐Star the project to help on the future development
 
 Contributions are welcome!  
 
