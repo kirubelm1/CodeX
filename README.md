@@ -3,7 +3,7 @@
 </p>
 Easily save, organize, and find your favorite code snippets in one place — never lose track of your useful code again.
 ⭐Star the project to help on the future development
-
+New Feature: Can Compile html code to show previews
 Contributions are welcome!  
 
 1. Fork the repository  
