@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeX - Code Snippet Manager</title>
+    <title>CodeX - 3D Code Snippet Manager</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -661,8 +661,8 @@
                 </div>
                 
                 <div class="nav-actions">
-                    <button class="btn btn-outline">Sign In(Soon)</button>
-                    <button class="btn btn-primary">Get Started(Soon)</button>
+                    <button class="btn btn-outline">Sign In</button>
+                    <button class="btn btn-primary">Get Started</button>
                 </div>
             </nav>
         </div>
@@ -857,7 +857,7 @@
 
         
         document.addEventListener('DOMContentLoaded', function() {
-            // Header scroll effect
+            // scroll effect
             const header = document.getElementById('header');
             window.addEventListener('scroll', function() {
                 if (window.scrollY > 50) {
@@ -867,7 +867,7 @@
                 }
             });
 
-            // Create 3D background cubes
+            //  3D background cubes
             function createCube(id, x, y, z) {
                 const cube = document.getElementById(id);
                 cube.style.left = x + 'px';
@@ -889,7 +889,7 @@
                     cube.appendChild(faceEl);
                 });
                 
-                // Animate cube rotation
+                // Animate cube 
                 anime({
                     targets: cube,
                     rotateY: 360,
@@ -904,7 +904,7 @@
             createCube('cube2', window.innerWidth - 300, 400, 0);
             createCube('cube3', 200, window.innerHeight - 300, 0);
 
-            // 3D card effects on mouse move
+            // mouse move 3d effects
             const cards = document.querySelectorAll('.floating-card');
             document.addEventListener('mousemove', function(e) {
                 const mouseX = e.clientX / window.innerWidth - 0.5;
@@ -1070,5 +1070,3 @@
     </script>
 </body>
 </html>
-
-
