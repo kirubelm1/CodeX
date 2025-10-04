@@ -8,6 +8,7 @@ import { SnippetEditor } from './components/SnippetEditor';
 import { EmptyState } from './components/EmptyState';
 import { generateId, createSnippetVersion, exportSnippets, importSnippets, copyToClipboard } from './utils/snippetStorage';
 
+
 function App() {
   const [snippets, setSnippets] = useLocalStorage<Snippet[]>('snippets', []);
   const [editingSnippet, setEditingSnippet] = useState<Snippet | null>(null);
