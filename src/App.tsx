@@ -31,7 +31,7 @@ function App() {
     return Array.from(tagSet).sort();
   }, [snippets]);
 
-  // Filter snippets based on search criteria
+  // Filter snippets 
   const filteredSnippets = useMemo(() => {
     return snippets.filter(snippet => {
       const matchesQuery = !filters.query || 
