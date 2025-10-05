@@ -14,7 +14,7 @@ export const createSnippetVersion = (code: string, description?: string): Snippe
 export const exportSnippets = (snippets: Snippet[]): string => {
   return JSON.stringify(snippets, null, 2);
 };
-
+//currently saved in localStorage
 export const importSnippets = (jsonString: string): Snippet[] => {
   try {
     const data = JSON.parse(jsonString);
