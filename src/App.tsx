@@ -22,7 +22,7 @@ function App() {
   const [notification, setNotification] = useState<string>('');
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  // Get all unique tags from snippets
+  
   const allTags = useMemo(() => {
     const tagSet = new Set<string>();
     snippets.forEach(snippet => {
@@ -31,7 +31,6 @@ function App() {
     return Array.from(tagSet).sort();
   }, [snippets]);
 
-  // Filter snippets 
   const filteredSnippets = useMemo(() => {
     return snippets.filter(snippet => {
       const matchesQuery = !filters.query || 
