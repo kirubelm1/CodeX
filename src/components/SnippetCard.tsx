@@ -60,7 +60,6 @@ export function SnippetCard({
             />
           </button>
         </div>
-
         {/* Language and Tags */}
         <div className="flex flex-wrap items-center gap-2">
           {language && (
@@ -108,7 +107,6 @@ export function SnippetCard({
               {new Date(snippet.updatedAt).toLocaleDateString()}
             </time>
           </div>
-
           <div className="flex items-center gap-1">
             <button
               onClick={() => onCopy(snippet.code)}
