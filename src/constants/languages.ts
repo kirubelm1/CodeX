@@ -1,5 +1,5 @@
 import { Language } from '../types';
-
+//language set can be configered
 export const LANGUAGES: Language[] = [
   { id: 'javascript', name: 'JavaScript', extension: 'js', color: '#F7DF1E' },
   { id: 'typescript', name: 'TypeScript', extension: 'ts', color: '#3178C6' },
