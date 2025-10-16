@@ -932,7 +932,6 @@
                 });
             });
 
-            // Feature card animations on scroll
             const featureCards = document.querySelectorAll('.feature-card');
             const observerOptions = {
                 threshold: 0.2,
@@ -994,7 +993,7 @@
                 easing: 'easeOutCubic'
             });
             
-            // Floating cards animation
+          
             anime({
                 targets: '.card-1',
                 translateY: [50, 0],
@@ -1043,8 +1042,7 @@
                     });
                 });
             });
-            
-            // Continuous subtle animations
+          
             anime({
                 targets: '.logo',
                 translateY: [-5, 0],
@@ -1054,7 +1052,6 @@
                 easing: 'easeInOutSine'
             });
             
-            // Glow effect for headings
             anime({
                 targets: '.hero h1, .section-title, .cta h2',
                 textShadow: [
@@ -1069,4 +1066,5 @@
     </script>
 </body>
 </html>
+
 
