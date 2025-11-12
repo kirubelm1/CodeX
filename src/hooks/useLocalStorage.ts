@@ -1,5 +1,4 @@
 
-//storage usage code
 import { useState, useEffect } from 'react';
 
 export function useLocalStorage<T>(key: string, initialValue: T) {
